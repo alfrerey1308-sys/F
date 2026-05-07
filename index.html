@@ -14,6 +14,22 @@ body{
     align-items:center;
     font-family:cursive;
     background:linear-gradient(135deg,#001f3f,#0074D9,#7FDBFF);
+    overflow:hidden;
+}
+
+/* Nombre en la esquina */
+.nombre{
+    position:absolute;
+    top:15px;
+    right:20px;
+    color:white;
+    font-size:18px;
+    font-style:italic;
+    background:rgba(255,255,255,0.15);
+    padding:8px 15px;
+    border-radius:12px;
+    backdrop-filter:blur(5px);
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
 }
 
 .formulario{
@@ -79,6 +95,10 @@ button:hover{
 </head>
 
 <body>
+
+<div class="nombre">
+    Alfredo Reyes Hernández
+</div>
 
 <div class="formulario">
 
